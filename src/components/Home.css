@@ -1,3 +1,4 @@
+
 .navBar {
  
     display: flex;
@@ -9,7 +10,18 @@
       width: 100vw;
       background-color: #161616;
       z-index: 2;
+      justify-content: space-between;
 
 
 } 
 
+.navBar > img {
+  height: inherit;
+}
+
+
+.connectionContainer {
+  display: flex;
+  height: inherit;
+  align-items: center;
+}
