@@ -9,13 +9,16 @@
       height: 5vw;
       width: 100vw;
       background-color: #161616;
-      z-index: 2;
+     z-index: 2;
       justify-content: space-between;
+}
 
+.leftSideContainer {
+  height: inherit;
+  display: flex;
+}
 
-} 
-
-.navBar > img {
+.leftSideContainer > img {
   height: inherit;
 }
 
@@ -25,3 +28,23 @@
   height: inherit;
   align-items: center;
 }
+
+
+
+.tabContainer > * {
+  align-items: center !important;
+}
+
+.tabContainer {
+  display: flex;
+  align-items: center;
+  height: inherit;
+  margin-top: 20px;
+  justify-content: space-evenly;
+}
+
+.sc-iuStju {
+  align-self: center;
+} 
+
+.kNFIHq {}
